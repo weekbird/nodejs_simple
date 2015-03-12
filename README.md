@@ -1,0 +1,3 @@
+# nodejs_simple
+没引入express，只是简单的一个nodejs程序，用于模拟后台给前台提交json字符串数据，方便前端开发
+这个程序主要是向前端返回json字符串，如果要返回html代码的话，可以加入mustache.js模块
