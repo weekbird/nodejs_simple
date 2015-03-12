@@ -1,7 +1,7 @@
 var http = require('http');
-function start(){
+function start(route,handleMap){
 	http.createServer(function(request,response){
-		console.log('do something');
+		route(request,response,handleMap);
 	}).listen(8888);
 	console.log('server started..');
 }
